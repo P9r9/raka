@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ @media (max-width:400px){
+  .navbar-nav {
+    align-items: center;
+
+  }
+ .background{
+  display: flexbox;
+ 
+  width: 100%;
+
+ 
+  flex-direction: column;
+ }
+ .main-text{
+  width: 100%;
+ }
+ h4, h3,h1{
+  font-size: x-large;
+ padding-left: 40px;
+ 
+  color: rgb(13, 13, 13);
+  display: flex;
+
+
+ 
+ }
+ .image-1{
+ 
+
+  width: 100%;
+ }
+ .image-1 img{
+  width: 100%;
+   box-shadow: #9599E2;
+  display: flex;
+  height: 200px;
+  margin-bottom: 10px;
+ 
+ align-content: center;
+ padding-right: 60px;
+  
+ }
+
+
+} 
+.background{
+
+  max-width: 100%;
+  display: flex;
+
+  height: auto;
+  background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+;
+
+}
+.main-text{
+  display: flex;
+
+  color: aliceblue;
+  flex-direction: column;
+  max-width: 50%;
+  padding-top: 130px;
+  padding-left: 50px;
+
+}
+.main-text h1{
+  font-family: "poppins";
+ 
+}  
+.main-text h4{
+font-weight: 300;
+
+}
+.main-text h3{
+  font-family: "poppins";
+  font-weight: 600;
+}
+
+
+.image-1{
+  display: flex;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: 40px;
+ 
+}
+.image-1 img{
+display: flex;
+height: 400px;
+margin-left: 80px;
+
+
+
+}
+.container-fulid{
+  background-color: #FFDEE9;
+  display: flex;
+
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+height: auto;
+
+
+}
+.image-2{
+  height: 400px;
+ 
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+.image-2 img{
+  height: 350px;
+  display: flex;
+  
+
+  
+
+}
+.some-text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  
+ 
+  
+}
+
+.some-text h3{
+  color: rgb(35, 80, 120);
+  font-weight: 800;
+  
+}
+
+@media(max-width:400px){
+  .container-fulid{
+    display: flex;
+    flex-direction: column-reverse;
+   
+
+  }
+  .some-text p{
+ text-align: justify;
+ margin: 10px;
+ line-height: normal;
+  }
+  .image-2 img{
+   justify-content:center ;
+ display: flex;
+max-width: 100%;
+padding-right: 40px;
+
+  }
+
+}
+
+.container-fulid-2{
+  max-height: auto;
+width: 100%;
+background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+
+}
+.grid{
+
+display: grid;
+grid-template-columns: auto auto auto;
+
+
+}
+.flex-grid{
+  display: flex;
+flex-direction: column;
+  border: solid 2px blueviolet;
+  margin-top: 30px;
+  padding-top: 30px;
+  background-color: azure;
+  border-radius: 30px;
+align-items: center;
+  min-height: 300px;
+ width: 400px;
+
+}
+
+.my-skill{
+  display: flex;
+  justify-content: center;
+ padding-top: 20px;
+  text-decoration: underline;
+  font-family: "poppins";
+  font-weight: "semi-bold";
+}
+.my-skill:hover{
+  color: #9599E2;
+}
+
+.flex-grid p{
+  margin: 15px;
+}
+
+@media (max-width:400px){
+  .grid{
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-grid{
+  
+    width: 90%;
+    display: flex;
+    margin-left: 20px;
+  }
+
+}
+.container-fulid-3{
+
+  max-width: 100%;
+padding-top: 20px;
+margin-top: 20px;
+  display: flex;
+  background-color: #a7a7ae;
+  flex-direction: column;
+}
+.cont h3{
+  display: flex;
+  justify-content: center;
+  
+}
+.contact{
+ padding: 10px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+
+}
+.text{
+  width: 500px;
+  padding: 5px;
+margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.email{
+  width: 500px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+.mobile{
+  width: 500px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.text-area{
+  margin-bottom: 10px;
+ 
+}
+.btn{
+  border: 1px solid black;
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #dddde3;
+ 
+}
+@media (max-width:400px){
+
+  .container-fulid-3{
+    max-width: 100%;
+  }
+  .cont{
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .text,.email, .mobile{
+    width: 100%;
+  }
+
+.text-area{
+ margin-top: 40px;
+}
+
+
+}
